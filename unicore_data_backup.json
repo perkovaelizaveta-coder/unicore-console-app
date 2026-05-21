@@ -1,0 +1,1022 @@
+{
+  "departments": [
+    {
+      "dept_id": 1,
+      "name": "Кафедра інформатики",
+      "head_teacher_id": 2,
+      "building": "1",
+      "phone": "+380441234567",
+      "email": "cs@ukma.edu.ua"
+    },
+    {
+      "dept_id": 2,
+      "name": "Кафедра математики",
+      "head_teacher_id": 7,
+      "building": "2",
+      "phone": "+380441234568",
+      "email": "math@ukma.edu.ua"
+    },
+    {
+      "dept_id": 3,
+      "name": "Кафедра фізики",
+      "head_teacher_id": 5,
+      "building": "3",
+      "phone": "+380441234569",
+      "email": "phys@ukma.edu.ua"
+    }
+  ],
+  "groups": [
+    {
+      "group_id": 1,
+      "name": "ПЛ1АМ",
+      "department_id": 1,
+      "year_of_study": 1,
+      "specialty": "Програмна інженерія"
+    },
+    {
+      "group_id": 2,
+      "name": "ПЛ2АМ",
+      "department_id": 1,
+      "year_of_study": 2,
+      "specialty": "Програмна інженерія"
+    },
+    {
+      "group_id": 3,
+      "name": "МА1АМ",
+      "department_id": 2,
+      "year_of_study": 1,
+      "specialty": "Математика"
+    },
+    {
+      "group_id": 4,
+      "name": "МА2АМ",
+      "department_id": 2,
+      "year_of_study": 2,
+      "specialty": "Математика"
+    },
+    {
+      "group_id": 5,
+      "name": "ФЗ1АМ",
+      "department_id": 3,
+      "year_of_study": 1,
+      "specialty": "Фізика"
+    }
+  ],
+  "teachers": [
+    {
+      "teacher_id": 1,
+      "first_name": "Іван",
+      "last_name": "Петренко",
+      "email": "i.petrenko@ukma.edu.ua",
+      "department_id": 1,
+      "academic_title": "доцент",
+      "hire_date": "2015-09-01",
+      "workload_hours": 480
+    },
+    {
+      "teacher_id": 2,
+      "first_name": "Олена",
+      "last_name": "Сидоренко",
+      "email": "o.sydorenko@ukma.edu.ua",
+      "department_id": 1,
+      "academic_title": "професор",
+      "hire_date": "2010-09-01",
+      "workload_hours": 720
+    },
+    {
+      "teacher_id": 3,
+      "first_name": "Микола",
+      "last_name": "Коваль",
+      "email": "m.koval@ukma.edu.ua",
+      "department_id": 2,
+      "academic_title": "доцент",
+      "hire_date": "2018-09-01",
+      "workload_hours": 560
+    },
+    {
+      "teacher_id": 4,
+      "first_name": "Тетяна",
+      "last_name": "Бойко",
+      "email": "t.boyko@ukma.edu.ua",
+      "department_id": 2,
+      "academic_title": "старший викладач",
+      "hire_date": "2020-09-01",
+      "workload_hours": 320
+    },
+    {
+      "teacher_id": 5,
+      "first_name": "Андрій",
+      "last_name": "Мороз",
+      "email": "a.moroz@ukma.edu.ua",
+      "department_id": 3,
+      "academic_title": "доцент",
+      "hire_date": "2016-09-01",
+      "workload_hours": 840
+    },
+    {
+      "teacher_id": 6,
+      "first_name": "Ірина",
+      "last_name": "Лисенко",
+      "email": "i.lysenko@ukma.edu.ua",
+      "department_id": 1,
+      "academic_title": "асистент",
+      "hire_date": "2022-09-01",
+      "workload_hours": 200
+    },
+    {
+      "teacher_id": 7,
+      "first_name": "Василь",
+      "last_name": "Ткаченко",
+      "email": "v.tkachenko@ukma.edu.ua",
+      "department_id": 2,
+      "academic_title": "професор",
+      "hire_date": "2008-09-01",
+      "workload_hours": 680
+    },
+    {
+      "teacher_id": 8,
+      "first_name": "Юлія",
+      "last_name": "Гриценко",
+      "email": "yu.hrytsenko@ukma.edu.ua",
+      "department_id": 3,
+      "academic_title": "доцент",
+      "hire_date": "2019-09-01",
+      "workload_hours": 400
+    }
+  ],
+  "students": [
+    {
+      "student_id": 1,
+      "first_name": "Олена",
+      "last_name": "Коваленко",
+      "birth_date": "2003-05-14",
+      "email": "o.kovalenko@ukma.edu.ua",
+      "phone": "+380671111111",
+      "group_id": 1,
+      "status": "budget",
+      "enrollment_year": 2021,
+      "gpa": 93.12
+    },
+    {
+      "student_id": 2,
+      "first_name": "Андрій",
+      "last_name": "Бойко",
+      "birth_date": "2003-03-22",
+      "email": "a.boyko@ukma.edu.ua",
+      "phone": "+380672222222",
+      "group_id": 1,
+      "status": "budget",
+      "enrollment_year": 2021,
+      "gpa": 90.03
+    },
+    {
+      "student_id": 3,
+      "first_name": "Юлія",
+      "last_name": "Ткаченко",
+      "birth_date": "2002-11-05",
+      "email": "yu.tkachenko@ukma.edu.ua",
+      "phone": "+380673333333",
+      "group_id": 1,
+      "status": "budget",
+      "enrollment_year": 2021,
+      "gpa": 87.97
+    },
+    {
+      "student_id": 4,
+      "first_name": "Дмитро",
+      "last_name": "Мороз",
+      "birth_date": "2003-07-18",
+      "email": "d.moroz@ukma.edu.ua",
+      "phone": "+380674444444",
+      "group_id": 1,
+      "status": "budget",
+      "enrollment_year": 2021,
+      "gpa": 80.0
+    },
+    {
+      "student_id": 5,
+      "first_name": "Катерина",
+      "last_name": "Лисенко",
+      "birth_date": "2003-09-30",
+      "email": "k.lysenko@ukma.edu.ua",
+      "phone": "+380675555555",
+      "group_id": 1,
+      "status": "contract",
+      "enrollment_year": 2021,
+      "gpa": 50.0
+    },
+    {
+      "student_id": 6,
+      "first_name": "Сергій",
+      "last_name": "Іваненко",
+      "birth_date": "2004-01-12",
+      "email": "s.ivanenko@ukma.edu.ua",
+      "phone": "+380676666666",
+      "group_id": 2,
+      "status": "budget",
+      "enrollment_year": 2022,
+      "gpa": 79.5
+    },
+    {
+      "student_id": 7,
+      "first_name": "Марія",
+      "last_name": "Павленко",
+      "birth_date": "2004-04-25",
+      "email": "m.pavlenko@ukma.edu.ua",
+      "phone": "+380677777777",
+      "group_id": 2,
+      "status": "budget",
+      "enrollment_year": 2022,
+      "gpa": 91.5
+    },
+    {
+      "student_id": 8,
+      "first_name": "Олексій",
+      "last_name": "Савченко",
+      "birth_date": "2004-08-03",
+      "email": "o.savchenko@ukma.edu.ua",
+      "phone": "+380678888888",
+      "group_id": 2,
+      "status": "contract",
+      "enrollment_year": 2022,
+      "gpa": 63.0
+    },
+    {
+      "student_id": 9,
+      "first_name": "Наталія",
+      "last_name": "Гриценко",
+      "birth_date": "2003-12-17",
+      "email": "n.hrytsenko@ukma.edu.ua",
+      "phone": "+380679999999",
+      "group_id": 3,
+      "status": "budget",
+      "enrollment_year": 2021,
+      "gpa": 81.0
+    },
+    {
+      "student_id": 10,
+      "first_name": "Роман",
+      "last_name": "Шевченко",
+      "birth_date": "2004-02-28",
+      "email": "r.shevchenko@ukma.edu.ua",
+      "phone": "+380670101010",
+      "group_id": 3,
+      "status": "budget",
+      "enrollment_year": 2022,
+      "gpa": 77.5
+    },
+    {
+      "student_id": 11,
+      "first_name": "Ірина",
+      "last_name": "Кравченко",
+      "birth_date": "2003-06-09",
+      "email": "i.kravchenko@ukma.edu.ua",
+      "phone": "+380670202020",
+      "group_id": 3,
+      "status": "contract",
+      "enrollment_year": 2021,
+      "gpa": 56.0
+    },
+    {
+      "student_id": 12,
+      "first_name": "Петро",
+      "last_name": "Яценко",
+      "birth_date": "2004-10-21",
+      "email": "p.yatsenko@ukma.edu.ua",
+      "phone": "+380670303030",
+      "group_id": 4,
+      "status": "budget",
+      "enrollment_year": 2022,
+      "gpa": 94.0
+    },
+    {
+      "student_id": 13,
+      "first_name": "Оксана",
+      "last_name": "Мельник",
+      "birth_date": "2003-08-15",
+      "email": "o.melnyk@ukma.edu.ua",
+      "phone": "+380670404040",
+      "group_id": 4,
+      "status": "budget",
+      "enrollment_year": 2021,
+      "gpa": 82.0
+    },
+    {
+      "student_id": 14,
+      "first_name": "Тарас",
+      "last_name": "Гончар",
+      "birth_date": "2004-03-07",
+      "email": "t.honchar@ukma.edu.ua",
+      "phone": "+380670505050",
+      "group_id": 4,
+      "status": "contract",
+      "enrollment_year": 2022,
+      "gpa": 70.0
+    },
+    {
+      "student_id": 15,
+      "first_name": "Валентина",
+      "last_name": "Руденко",
+      "birth_date": "2003-01-19",
+      "email": "v.rudenko@ukma.edu.ua",
+      "phone": "+380670606060",
+      "group_id": 5,
+      "status": "budget",
+      "enrollment_year": 2021,
+      "gpa": 88.5
+    },
+    {
+      "student_id": 16,
+      "first_name": "Микола",
+      "last_name": "Черненко",
+      "birth_date": "2004-05-11",
+      "email": "m.chernenko@ukma.edu.ua",
+      "phone": "+380670707070",
+      "group_id": 5,
+      "status": "budget",
+      "enrollment_year": 2022,
+      "gpa": 75.0
+    },
+    {
+      "student_id": 17,
+      "first_name": "Аліна",
+      "last_name": "Пономаренко",
+      "birth_date": "2003-09-23",
+      "email": "a.ponomarenko@ukma.edu.ua",
+      "phone": "+380670808080",
+      "group_id": 5,
+      "status": "contract",
+      "enrollment_year": 2021,
+      "gpa": 91.0
+    },
+    {
+      "student_id": 18,
+      "first_name": "Богдан",
+      "last_name": "Литвиненко",
+      "birth_date": "2004-07-16",
+      "email": "b.lytvynenko@ukma.edu.ua",
+      "phone": "+380670909090",
+      "group_id": 1,
+      "status": "budget",
+      "enrollment_year": 2021,
+      "gpa": 66.0
+    },
+    {
+      "student_id": 19,
+      "first_name": "Дарина",
+      "last_name": "Назаренко",
+      "birth_date": "2003-11-28",
+      "email": "d.nazarenko@ukma.edu.ua",
+      "phone": "+380670010010",
+      "group_id": 2,
+      "status": "budget",
+      "enrollment_year": 2022,
+      "gpa": 77.0
+    },
+    {
+      "student_id": 20,
+      "first_name": "Євген",
+      "last_name": "Марченко",
+      "birth_date": "2004-04-04",
+      "email": "ye.marchenko@ukma.edu.ua",
+      "phone": "+380670020020",
+      "group_id": 3,
+      "status": "contract",
+      "enrollment_year": 2022,
+      "gpa": 59.0
+    }
+  ],
+  "courses": [
+    {
+      "course_id": 1,
+      "title": "Алгоритми та структури даних",
+      "department_id": 1,
+      "teacher_id": 1,
+      "credits": 4,
+      "max_students": 30,
+      "semester": 1,
+      "year": 2025,
+      "is_elective": false,
+      "enrolled_count": 5
+    },
+    {
+      "course_id": 2,
+      "title": "Бази даних",
+      "department_id": 1,
+      "teacher_id": 2,
+      "credits": 4,
+      "max_students": 25,
+      "semester": 2,
+      "year": 2025,
+      "is_elective": false,
+      "enrolled_count": 5
+    },
+    {
+      "course_id": 3,
+      "title": "Вища математика",
+      "department_id": 2,
+      "teacher_id": 3,
+      "credits": 5,
+      "max_students": 40,
+      "semester": 1,
+      "year": 2025,
+      "is_elective": false,
+      "enrolled_count": 3
+    },
+    {
+      "course_id": 4,
+      "title": "Лінійна алгебра",
+      "department_id": 2,
+      "teacher_id": 7,
+      "credits": 4,
+      "max_students": 35,
+      "semester": 2,
+      "year": 2025,
+      "is_elective": false,
+      "enrolled_count": 3
+    },
+    {
+      "course_id": 5,
+      "title": "Загальна фізика",
+      "department_id": 3,
+      "teacher_id": 5,
+      "credits": 4,
+      "max_students": 30,
+      "semester": 1,
+      "year": 2025,
+      "is_elective": false,
+      "enrolled_count": 3
+    },
+    {
+      "course_id": 6,
+      "title": "Веб-розробка",
+      "department_id": 1,
+      "teacher_id": 6,
+      "credits": 3,
+      "max_students": 20,
+      "semester": 2,
+      "year": 2025,
+      "is_elective": true,
+      "enrolled_count": 3
+    },
+    {
+      "course_id": 7,
+      "title": "Машинне навчання",
+      "department_id": 1,
+      "teacher_id": 2,
+      "credits": 3,
+      "max_students": 15,
+      "semester": 2,
+      "year": 2025,
+      "is_elective": true,
+      "enrolled_count": 2
+    },
+    {
+      "course_id": 8,
+      "title": "Теорія ймовірностей",
+      "department_id": 2,
+      "teacher_id": 4,
+      "credits": 3,
+      "max_students": 30,
+      "semester": 1,
+      "year": 2025,
+      "is_elective": false,
+      "enrolled_count": 3
+    },
+    {
+      "course_id": 9,
+      "title": "Квантова фізика",
+      "department_id": 3,
+      "teacher_id": 8,
+      "credits": 3,
+      "max_students": 20,
+      "semester": 2,
+      "year": 2025,
+      "is_elective": true,
+      "enrolled_count": 0
+    },
+    {
+      "course_id": 10,
+      "title": "Об'єктно-орієнтоване програмування",
+      "department_id": 1,
+      "teacher_id": 1,
+      "credits": 4,
+      "max_students": 30,
+      "semester": 1,
+      "year": 2025,
+      "is_elective": false,
+      "enrolled_count": 3
+    }
+  ],
+  "grades": [
+    {
+      "grade_id": 1,
+      "student_id": 1,
+      "course_id": 1,
+      "score": 92.5,
+      "grade_date": "2025-12-20",
+      "grade_type": "exam",
+      "teacher_id": 1
+    },
+    {
+      "grade_id": 2,
+      "student_id": 2,
+      "course_id": 1,
+      "score": 90.1,
+      "grade_date": "2025-12-20",
+      "grade_type": "exam",
+      "teacher_id": 1
+    },
+    {
+      "grade_id": 3,
+      "student_id": 3,
+      "course_id": 1,
+      "score": 87.4,
+      "grade_date": "2025-12-20",
+      "grade_type": "exam",
+      "teacher_id": 1
+    },
+    {
+      "grade_id": 4,
+      "student_id": 4,
+      "course_id": 1,
+      "score": 84.0,
+      "grade_date": "2025-12-20",
+      "grade_type": "exam",
+      "teacher_id": 1
+    },
+    {
+      "grade_id": 5,
+      "student_id": 5,
+      "course_id": 1,
+      "score": 55.0,
+      "grade_date": "2025-12-20",
+      "grade_type": "exam",
+      "teacher_id": 1
+    },
+    {
+      "grade_id": 6,
+      "student_id": 1,
+      "course_id": 2,
+      "score": 95.0,
+      "grade_date": "2025-12-22",
+      "grade_type": "exam",
+      "teacher_id": 2
+    },
+    {
+      "grade_id": 7,
+      "student_id": 2,
+      "course_id": 2,
+      "score": 88.0,
+      "grade_date": "2025-12-22",
+      "grade_type": "exam",
+      "teacher_id": 2
+    },
+    {
+      "grade_id": 8,
+      "student_id": 3,
+      "course_id": 2,
+      "score": 91.0,
+      "grade_date": "2025-12-22",
+      "grade_type": "exam",
+      "teacher_id": 2
+    },
+    {
+      "grade_id": 9,
+      "student_id": 4,
+      "course_id": 2,
+      "score": 76.0,
+      "grade_date": "2025-12-22",
+      "grade_type": "exam",
+      "teacher_id": 2
+    },
+    {
+      "grade_id": 10,
+      "student_id": 5,
+      "course_id": 2,
+      "score": 45.0,
+      "grade_date": "2025-12-22",
+      "grade_type": "exam",
+      "teacher_id": 2
+    },
+    {
+      "grade_id": 11,
+      "student_id": 1,
+      "course_id": 10,
+      "score": 89.0,
+      "grade_date": "2025-12-18",
+      "grade_type": "exam",
+      "teacher_id": 1
+    },
+    {
+      "grade_id": 12,
+      "student_id": 2,
+      "course_id": 10,
+      "score": 93.0,
+      "grade_date": "2025-12-18",
+      "grade_type": "exam",
+      "teacher_id": 1
+    },
+    {
+      "grade_id": 13,
+      "student_id": 3,
+      "course_id": 10,
+      "score": 85.5,
+      "grade_date": "2025-12-18",
+      "grade_type": "exam",
+      "teacher_id": 1
+    },
+    {
+      "grade_id": 14,
+      "student_id": 6,
+      "course_id": 3,
+      "score": 78.0,
+      "grade_date": "2025-12-21",
+      "grade_type": "exam",
+      "teacher_id": 3
+    },
+    {
+      "grade_id": 15,
+      "student_id": 7,
+      "course_id": 3,
+      "score": 91.5,
+      "grade_date": "2025-12-21",
+      "grade_type": "exam",
+      "teacher_id": 3
+    },
+    {
+      "grade_id": 16,
+      "student_id": 8,
+      "course_id": 3,
+      "score": 63.0,
+      "grade_date": "2025-12-21",
+      "grade_type": "exam",
+      "teacher_id": 3
+    },
+    {
+      "grade_id": 17,
+      "student_id": 9,
+      "course_id": 4,
+      "score": 88.0,
+      "grade_date": "2025-12-19",
+      "grade_type": "exam",
+      "teacher_id": 7
+    },
+    {
+      "grade_id": 18,
+      "student_id": 10,
+      "course_id": 4,
+      "score": 72.0,
+      "grade_date": "2025-12-19",
+      "grade_type": "exam",
+      "teacher_id": 7
+    },
+    {
+      "grade_id": 19,
+      "student_id": 11,
+      "course_id": 4,
+      "score": 56.0,
+      "grade_date": "2025-12-19",
+      "grade_type": "exam",
+      "teacher_id": 7
+    },
+    {
+      "grade_id": 20,
+      "student_id": 12,
+      "course_id": 8,
+      "score": 94.0,
+      "grade_date": "2025-12-23",
+      "grade_type": "exam",
+      "teacher_id": 4
+    },
+    {
+      "grade_id": 21,
+      "student_id": 13,
+      "course_id": 8,
+      "score": 82.0,
+      "grade_date": "2025-12-23",
+      "grade_type": "exam",
+      "teacher_id": 4
+    },
+    {
+      "grade_id": 22,
+      "student_id": 14,
+      "course_id": 8,
+      "score": 70.0,
+      "grade_date": "2025-12-23",
+      "grade_type": "exam",
+      "teacher_id": 4
+    },
+    {
+      "grade_id": 23,
+      "student_id": 15,
+      "course_id": 5,
+      "score": 88.5,
+      "grade_date": "2025-12-17",
+      "grade_type": "exam",
+      "teacher_id": 5
+    },
+    {
+      "grade_id": 24,
+      "student_id": 16,
+      "course_id": 5,
+      "score": 75.0,
+      "grade_date": "2025-12-17",
+      "grade_type": "exam",
+      "teacher_id": 5
+    },
+    {
+      "grade_id": 25,
+      "student_id": 17,
+      "course_id": 5,
+      "score": 91.0,
+      "grade_date": "2025-12-17",
+      "grade_type": "exam",
+      "teacher_id": 5
+    },
+    {
+      "grade_id": 26,
+      "student_id": 1,
+      "course_id": 6,
+      "score": 96.0,
+      "grade_date": "2025-12-24",
+      "grade_type": "coursework",
+      "teacher_id": 6
+    },
+    {
+      "grade_id": 27,
+      "student_id": 6,
+      "course_id": 6,
+      "score": 81.0,
+      "grade_date": "2025-12-24",
+      "grade_type": "coursework",
+      "teacher_id": 6
+    },
+    {
+      "grade_id": 28,
+      "student_id": 9,
+      "course_id": 6,
+      "score": 74.0,
+      "grade_date": "2025-12-24",
+      "grade_type": "coursework",
+      "teacher_id": 6
+    },
+    {
+      "grade_id": 29,
+      "student_id": 2,
+      "course_id": 7,
+      "score": 89.0,
+      "grade_date": "2025-12-25",
+      "grade_type": "coursework",
+      "teacher_id": 2
+    },
+    {
+      "grade_id": 30,
+      "student_id": 10,
+      "course_id": 7,
+      "score": 83.0,
+      "grade_date": "2025-12-25",
+      "grade_type": "coursework",
+      "teacher_id": 2
+    },
+    {
+      "grade_id": 31,
+      "student_id": 18,
+      "course_id": 1,
+      "score": 66.0,
+      "grade_date": "2025-12-20",
+      "grade_type": "exam",
+      "teacher_id": 1
+    },
+    {
+      "grade_id": 32,
+      "student_id": 19,
+      "course_id": 3,
+      "score": 77.0,
+      "grade_date": "2025-12-21",
+      "grade_type": "exam",
+      "teacher_id": 3
+    },
+    {
+      "grade_id": 33,
+      "student_id": 20,
+      "course_id": 4,
+      "score": 59.0,
+      "grade_date": "2025-12-19",
+      "grade_type": "exam",
+      "teacher_id": 7
+    }
+  ],
+  "enrollments": [
+    {
+      "enroll_id": 1,
+      "student_id": 1,
+      "course_id": 1,
+      "enrolled_date": "2025-09-01",
+      "status": "active"
+    },
+    {
+      "enroll_id": 2,
+      "student_id": 2,
+      "course_id": 1,
+      "enrolled_date": "2025-09-01",
+      "status": "active"
+    },
+    {
+      "enroll_id": 3,
+      "student_id": 3,
+      "course_id": 1,
+      "enrolled_date": "2025-09-01",
+      "status": "active"
+    },
+    {
+      "enroll_id": 4,
+      "student_id": 4,
+      "course_id": 1,
+      "enrolled_date": "2025-09-01",
+      "status": "active"
+    },
+    {
+      "enroll_id": 5,
+      "student_id": 5,
+      "course_id": 1,
+      "enrolled_date": "2025-09-01",
+      "status": "active"
+    },
+    {
+      "enroll_id": 6,
+      "student_id": 1,
+      "course_id": 2,
+      "enrolled_date": "2025-09-01",
+      "status": "active"
+    },
+    {
+      "enroll_id": 7,
+      "student_id": 2,
+      "course_id": 2,
+      "enrolled_date": "2025-09-01",
+      "status": "active"
+    },
+    {
+      "enroll_id": 8,
+      "student_id": 3,
+      "course_id": 2,
+      "enrolled_date": "2025-09-01",
+      "status": "active"
+    },
+    {
+      "enroll_id": 9,
+      "student_id": 4,
+      "course_id": 2,
+      "enrolled_date": "2025-09-01",
+      "status": "active"
+    },
+    {
+      "enroll_id": 10,
+      "student_id": 5,
+      "course_id": 2,
+      "enrolled_date": "2025-09-01",
+      "status": "active"
+    },
+    {
+      "enroll_id": 11,
+      "student_id": 1,
+      "course_id": 10,
+      "enrolled_date": "2025-09-01",
+      "status": "active"
+    },
+    {
+      "enroll_id": 12,
+      "student_id": 2,
+      "course_id": 10,
+      "enrolled_date": "2025-09-01",
+      "status": "active"
+    },
+    {
+      "enroll_id": 13,
+      "student_id": 3,
+      "course_id": 10,
+      "enrolled_date": "2025-09-01",
+      "status": "active"
+    },
+    {
+      "enroll_id": 14,
+      "student_id": 6,
+      "course_id": 3,
+      "enrolled_date": "2025-09-01",
+      "status": "active"
+    },
+    {
+      "enroll_id": 15,
+      "student_id": 7,
+      "course_id": 3,
+      "enrolled_date": "2025-09-01",
+      "status": "active"
+    },
+    {
+      "enroll_id": 16,
+      "student_id": 8,
+      "course_id": 3,
+      "enrolled_date": "2025-09-01",
+      "status": "active"
+    },
+    {
+      "enroll_id": 17,
+      "student_id": 9,
+      "course_id": 4,
+      "enrolled_date": "2025-09-01",
+      "status": "active"
+    },
+    {
+      "enroll_id": 18,
+      "student_id": 10,
+      "course_id": 4,
+      "enrolled_date": "2025-09-01",
+      "status": "active"
+    },
+    {
+      "enroll_id": 19,
+      "student_id": 11,
+      "course_id": 4,
+      "enrolled_date": "2025-09-01",
+      "status": "active"
+    },
+    {
+      "enroll_id": 20,
+      "student_id": 12,
+      "course_id": 8,
+      "enrolled_date": "2025-09-01",
+      "status": "active"
+    },
+    {
+      "enroll_id": 21,
+      "student_id": 13,
+      "course_id": 8,
+      "enrolled_date": "2025-09-01",
+      "status": "active"
+    },
+    {
+      "enroll_id": 22,
+      "student_id": 14,
+      "course_id": 8,
+      "enrolled_date": "2025-09-01",
+      "status": "active"
+    },
+    {
+      "enroll_id": 23,
+      "student_id": 15,
+      "course_id": 5,
+      "enrolled_date": "2025-09-01",
+      "status": "active"
+    },
+    {
+      "enroll_id": 24,
+      "student_id": 16,
+      "course_id": 5,
+      "enrolled_date": "2025-09-01",
+      "status": "active"
+    },
+    {
+      "enroll_id": 25,
+      "student_id": 17,
+      "course_id": 5,
+      "enrolled_date": "2025-09-01",
+      "status": "active"
+    },
+    {
+      "enroll_id": 26,
+      "student_id": 1,
+      "course_id": 6,
+      "enrolled_date": "2025-09-01",
+      "status": "active"
+    },
+    {
+      "enroll_id": 27,
+      "student_id": 6,
+      "course_id": 6,
+      "enrolled_date": "2025-09-01",
+      "status": "active"
+    },
+    {
+      "enroll_id": 28,
+      "student_id": 9,
+      "course_id": 6,
+      "enrolled_date": "2025-09-01",
+      "status": "active"
+    },
+    {
+      "enroll_id": 29,
+      "student_id": 2,
+      "course_id": 7,
+      "enrolled_date": "2025-09-01",
+      "status": "active"
+    },
+    {
+      "enroll_id": 30,
+      "student_id": 10,
+      "course_id": 7,
+      "enrolled_date": "2025-09-01",
+      "status": "active"
+    }
+  ]
+}
